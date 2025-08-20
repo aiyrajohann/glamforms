@@ -23,7 +23,7 @@
   .logo {
     height: 300px;
     position: absolute;
-    top: -65px;
+    top: -75px;
     left: 35px;
     transform: none;
 
@@ -45,6 +45,7 @@
     position: relative;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     text-align: center;
+    top: 100px;
   }
   
   /* Ícone do cadeado */
@@ -66,7 +67,16 @@
     left: -140px;
     transform: none;
   }
-  
+
+    .cadeado {
+    transform: none;
+    width: 557px;
+    height: auto;
+    position: absolute;
+    top: -154px;
+    left: -238px;
+    }
+ 
   /* Inputs */
   .input-group {
     text-align: left;
